@@ -1,6 +1,6 @@
 {
   "scheme": "93-97 Primrose Street CTS 35001",
-  "generatedAt": "2026-08-20T15:29:17",
+  "generatedAt": "2026-08-20T19:08:17",
   "bankTransactions": [
     {
       "date": "2026-01-02",
@@ -3228,6 +3228,41 @@
       "notSpecificallyBudgetedPercent": 0.1612,
       "mappedToNamedBudgetPercent": 0.8388
     },
+    "fundingRisk": {
+      "bankLoan": 115000.0,
+      "agmLabel": "External funds",
+      "classification": "Bank loan - confirmed by the Treasurer",
+      "plannedSinkingClosingCash": 39367.68,
+      "sinkingCashLessLoan": -75632.32,
+      "combinedClosingCash": 56935.99,
+      "combinedCashLessLoan": -58064.01,
+      "cancelledBudgetItems": [
+        {
+          "line": "Building Repairs",
+          "agmLine": "Building Repairs",
+          "annual": 80000.0,
+          "status": "Cancelled / no longer proceeding",
+          "source": "Treasurer update"
+        },
+        {
+          "line": "Owner expense \u2014 Unit 9 capital works",
+          "agmLine": "Owner expense",
+          "annual": 15000.0,
+          "status": "Cancelled / no longer proceeding",
+          "source": "Treasurer update"
+        }
+      ],
+      "totalCancelledBudget": 95000.0,
+      "revisedSinkingExpenditure": 135000.0,
+      "revisedSinkingOperatingDeficitExcludingLoan": -7329.28,
+      "revisedCombinedOperatingDeficitExcludingLoan": -13130.63,
+      "revisedSinkingClosingCash": 134367.68,
+      "revisedSinkingCashLessLoan": 19367.68,
+      "revisedCombinedCashLessLoan": 36935.99,
+      "adminOperatingDeficit": -5801.35,
+      "sinkingOperatingDeficitExcludingLoan": -102329.28,
+      "assumption": "Assumes the full $115,000 bank loan is drawn and remains outstanding at year-end. Interest and principal repayments are not shown in the AGM budget and would worsen the result."
+    },
     "funds": [
       {
         "fund": "Administrative",
@@ -3268,6 +3303,187 @@
         "annualBudget": 268342.08
       }
     ],
+    "agmBudget": {
+      "administrative": {
+        "openingBalance": 23369.66,
+        "income": [
+          {
+            "line": "Contributions (gross)",
+            "annual": 40675.91,
+            "type": "Owner contributions"
+          },
+          {
+            "line": "Less: on-time payment discount",
+            "annual": -8135.18,
+            "type": "Reduction in contributions"
+          },
+          {
+            "line": "Net contribution income",
+            "annual": 32540.73,
+            "type": "Income available for expenses"
+          }
+        ],
+        "expenditure": [
+          {
+            "line": "Cleaning",
+            "annual": 2600.0
+          },
+          {
+            "line": "Common property",
+            "annual": 1500.0
+          },
+          {
+            "line": "Electrical",
+            "annual": 500.0
+          },
+          {
+            "line": "Fire systems",
+            "annual": 1500.0
+          },
+          {
+            "line": "Grounds",
+            "annual": 4500.0
+          },
+          {
+            "line": "Gutters & downpipes",
+            "annual": 1200.0
+          },
+          {
+            "line": "Insurance - Renewal",
+            "annual": 14954.28
+          },
+          {
+            "line": "Insurance - Work cover",
+            "annual": 200.0
+          },
+          {
+            "line": "Management - Additional services fee",
+            "annual": 3500.0
+          },
+          {
+            "line": "Management - Agreed Services",
+            "annual": 2420.0
+          },
+          {
+            "line": "Management - Asset Maintenance Services",
+            "annual": 1100.0
+          },
+          {
+            "line": "Management - Disbursement Fees",
+            "annual": 750.2
+          },
+          {
+            "line": "Pest control",
+            "annual": 350.0
+          },
+          {
+            "line": "Plumbing",
+            "annual": 1000.0
+          },
+          {
+            "line": "Plumbing - Backflow Testing",
+            "annual": 154.0
+          },
+          {
+            "line": "Reconciliation Fee",
+            "annual": 220.0
+          },
+          {
+            "line": "Reports",
+            "annual": 369.0
+          },
+          {
+            "line": "Tax return preparation",
+            "annual": 231.0
+          },
+          {
+            "line": "Technology and System Fees",
+            "annual": 193.6
+          },
+          {
+            "line": "Utilities - Electricity",
+            "annual": 1100.0
+          }
+        ],
+        "totalExpenditure": 38342.08,
+        "operatingDeficit": -5801.35,
+        "closingBalance": 17568.31
+      },
+      "sinking": {
+        "openingBalance": 26696.96,
+        "income": [
+          {
+            "line": "Contributions (gross)",
+            "annual": 34588.4,
+            "type": "Owner contributions"
+          },
+          {
+            "line": "Less: on-time payment discount",
+            "annual": -6917.68,
+            "type": "Reduction in contributions"
+          },
+          {
+            "line": "Net contribution income",
+            "annual": 27670.72,
+            "type": "Income available for expenses"
+          },
+          {
+            "line": "Special levy",
+            "annual": 100000.0,
+            "type": "Owner funding"
+          },
+          {
+            "line": "Bank loan (AGM label: External funds)",
+            "annual": 115000.0,
+            "type": "Borrowing - creates a liability"
+          },
+          {
+            "line": "AGM total inflows including loan",
+            "annual": 242670.72,
+            "type": "Cash inflow, not accounting income"
+          }
+        ],
+        "expenditure": [
+          {
+            "line": "Building Repairs",
+            "annual": 80000.0
+          },
+          {
+            "line": "Common property",
+            "annual": 25000.0
+          },
+          {
+            "line": "Common property - Retaining Wall",
+            "annual": 60000.0
+          },
+          {
+            "line": "Grounds - Tree lopping",
+            "annual": 10000.0
+          },
+          {
+            "line": "Owner expense",
+            "annual": 15000.0
+          },
+          {
+            "line": "Plumbing",
+            "annual": 5000.0
+          },
+          {
+            "line": "Reports - Engineers report",
+            "annual": 5000.0
+          },
+          {
+            "line": "Structural reinstatement - Waterproofing",
+            "annual": 30000.0
+          }
+        ],
+        "totalExpenditure": 230000.0,
+        "operatingDeficitExcludingLoan": -102329.28,
+        "closingCashIncludingLoan": 39367.68,
+        "cashLessLoan": -75632.32
+      },
+      "sourcePages": "AGM Notice_35001_20260325.pdf, Proposed Budget, pages 25-26"
+    },
     "notSpecificallyBudgeted": [
       {
         "fund": "Administrative",
